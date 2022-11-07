@@ -1,0 +1,28 @@
+.Cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1rem; 
+}
+
+.Card {
+	width: 180px;
+	height: 200px;
+	background-color: #fff;
+	margin: 10px 0px;
+	border-radius: 2%;
+}
+
+.Card:first-child{
+	width: 380px;
+}
+
+h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-top: auto;
+}

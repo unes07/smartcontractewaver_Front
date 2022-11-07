@@ -1,0 +1,33 @@
+.Fan {
+	box-sizing: border-box;
+	padding: 0 10px;
+	width: 380px;
+	display: flex;
+	flex-direction: row;
+	justify-self: start;
+	margin-bottom: 5px; 
+}
+
+span {
+	margin: 10px;
+}
+
+span:nth-child(1){
+	width: 15%;
+	text-align: center;
+}
+
+span:nth-child(2){
+	width: 70%;
+}
+
+span:nth-child(3){
+	width: 15%;
+	text-align: center;
+}
+
+.tabh{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
